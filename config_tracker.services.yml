@@ -1,0 +1,5 @@
+services:
+  config_tracker.event_subscriber:
+    class: Drupal\config_tracker\EventSubscriber\ConfigTrackerEventSubScriber
+    tags:
+      - { name: 'event_subscriber' }
